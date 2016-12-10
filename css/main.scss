@@ -516,6 +516,11 @@ $baseurl: '{{ site.baseurl }}/images';
 			display: block;
 		}
 
+		video {
+			border-radius: 3px;
+			display: block;
+		}
+
 		&.left {
 			float: left;
 			margin: 0 2em 2em 0;
@@ -535,6 +540,10 @@ $baseurl: '{{ site.baseurl }}/images';
 			img {
 				width: 100%;
 			}
+
+			video {
+				width: 100%;
+			}
 		}
 
 		&.fit {
@@ -543,6 +552,10 @@ $baseurl: '{{ site.baseurl }}/images';
 			width: 100%;
 
 			img {
+				width: 100%;
+			}
+
+			video {
 				width: 100%;
 			}
 		}
@@ -984,6 +997,11 @@ $baseurl: '{{ site.baseurl }}/images';
 			width: 40%;
 
 			img {
+				border-radius: 0;
+				width: 100%;
+			}
+
+			video {
 				border-radius: 0;
 				width: 100%;
 			}
