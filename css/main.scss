@@ -1796,6 +1796,11 @@ $baseurl: '{{ site.baseurl }}/images';
 			padding-top: 0;
 		}
 
+		.logo {
+			width: 300px;
+    	height: auto;
+		}
+
 		#footer {
 			background-color: _palette(bg);
 		}
@@ -1813,6 +1818,11 @@ $baseurl: '{{ site.baseurl }}/images';
 				background-position: center center;
 				background-repeat: no-repeat;
 				background-size: cover;
+			}
+
+			.logo {
+				width: 200px;
+				height: auto;
 			}
 
 			#footer {
